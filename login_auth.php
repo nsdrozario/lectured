@@ -15,7 +15,7 @@ if (isset($_POST["username"]) && !empty($_POST["username"]) && isset($_POST["pas
     $serialized_result = pg_fetch_assoc($result);
     if (isset($serialized_result["password"]) && password_verify($password, $serialized_result["password"])) {
         // login successful
-        
+
         session_start();
         
         $_SESSION["username"]=$serialized_result["username"];

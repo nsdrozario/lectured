@@ -18,14 +18,30 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.relative-top {
+  background: rgba( 255, 255, 255, 0.70 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  padding: 30px;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
 .center-page input {
   float: right;
   background: rgba( 255, 255, 255, 0.25 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.17 );
-backdrop-filter: blur( 2.0px );
--webkit-backdrop-filter: blur( 2.0px );
-border-radius: 5px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.17 );
+  backdrop-filter: blur( 2.0px );
+  -webkit-backdrop-filter: blur( 2.0px );
+  border-radius: 5px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .center-page input[type=submit] {
