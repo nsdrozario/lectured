@@ -8,7 +8,7 @@ if (isset($_SESSION["username"]) && isset($_SESSION["id"])) {
     <?php
       include 'head.php';
      ?>
-    <title>InspirEd - Home</title>
+    <title>Courses - InspirEd</title>
   </head>
   <body>
     <div class='container'><br/>
@@ -19,7 +19,7 @@ if (isset($_SESSION["username"]) && isset($_SESSION["id"])) {
         </p>
       </a><br/>
     </div>
-    <div style='margin-top: 10px;' class='container home relative-top'>
+    <div class='container home relative-top'>
       <div class='row'>
         <div class='col-md-9'>
           <p class='titular'>Classes</p><br/>
@@ -87,6 +87,7 @@ if (isset($_SESSION["username"]) && isset($_SESSION["id"])) {
       <div class="col-md-12">
           <form>
             <p>Class Code: <input class='button' type='text' name='course-code' id='course-code' /><input id='course-join' name='course-join' type='button' value='Join Course' class='button' /></p>
+            <p><input class='button' type='button' name='createCourse' value='Create a Course' /></p>
           </form>
       </div>
     </div>
