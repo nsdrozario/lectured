@@ -15,7 +15,7 @@
         <p><span>Password:</span> <input name='newPassword' type='password' id='newPassword' onchange="validate()" /></p><br/>
         <p><span>Confirm Password:</span>&nbsp; <input name="newPassword-confirm" type='password' id='newPassword-confirm' onchange="validate()" /></p>
         <p><span>
-            I am a: 
+            I am a:
             <select name="account-type">
                 <option value="student" selected>Student</option>
                 <option value="teacher">Teacher</option>
@@ -28,7 +28,7 @@
       <br/>
         <p>Already have an account? Log in <a href="login.php">here.</a></p>
       </div>
-      <div id="err-msg" style="color: red;">
+      <div id="err-msg" style="color: red;">&#8204;
       </div>
       <script>
         function validate() {
