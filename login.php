@@ -16,7 +16,7 @@
       </form>
       <br/>
       <div>
-        <p>Don't have an account? Create one <a href="register.php">here.</a></p>
+        <p>Don't have an account? Create one <a class='override-a-tag' href="register.php">here.</a></p>
       </div>
       <span style="color: red;" id="err-msg">&#8204;</span>
       <span style="color: green;" id="normal-msg">&#8204;</span>

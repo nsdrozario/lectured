@@ -178,6 +178,6 @@ a:hover {
   font-size: 1.1em;
 }
 
-#getStarted {
+.override-a-tag {
   text-decoration: underline;
 }

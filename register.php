@@ -26,7 +26,7 @@
       </form>
       <div>
       <br/>
-        <p>Already have an account? Log in <a href="login.php">here.</a></p>
+        <p>Already have an account? Log in <a class='override-a-tag' href="login.php">here.</a></p>
       </div>
       <div id="err-msg" style="color: red;">&#8204;
       </div>
