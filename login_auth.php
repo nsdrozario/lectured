@@ -22,7 +22,7 @@ if (isset($_POST["username"]) && !empty($_POST["username"]) && isset($_POST["pas
         $_SESSION["id"]=$serialized_result["id"];
 
         echo 'Login successful';
-        header("Location: landing.php");
+        header("Location: account.php");
     } else {
         echo "Incorrect username or password";
         header("Location: login.php?err=wrongcredentials");
