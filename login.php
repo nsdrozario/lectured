@@ -8,7 +8,7 @@
   </head>
   <body>
     <?php
-    if(!(session_id() == '')) {
+    if(!(session_id() == '') || !(session_status() == PHP_SESSION_NONE)) {
       echo 'Login successful';
       header("Location: account.php");
     }
