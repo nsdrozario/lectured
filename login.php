@@ -15,7 +15,11 @@
         <input type='submit' value='Submit' id='submit' />
       </form>
       <br/>
+      <div>
+        <p>Don't have an account? Create one <a href="register.php">here.</a></p>
+      </div>
       <span style="color: red;" id="err-msg">&#8204;</span>
+      <span style="color: green;" id="normal-msg">&#8204;</span>
       <script>
 
         let p = new URLSearchParams(window.location.search);
@@ -28,6 +32,12 @@
                     document.querySelector("#err-msg").innerHTML = "Please enter both a username and password.";
                 break;
             }
+        }
+        if (p.has('created_account')) {
+            if (p.get('created_account') == "true") {
+                document.querySelector("#normal-msg").innerHTML = "Account creation successful! You can log in here.";
+            }
+        }
         }
       </script>
     </div>
