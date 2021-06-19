@@ -35,3 +35,52 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 .center-page input:focus {
   outline: none;
 }
+
+.home {
+  background: rgba( 255, 255, 255, 0.75 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 2.0px );
+  -webkit-backdrop-filter: blur( 2.0px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.classes {
+  text-align: center;
+  width: 100%;
+  border: 2px solid black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: rgba( 255, 255, 255, 0.90 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 2.0px );
+  -webkit-backdrop-filter: blur( 2.0px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.name-of-class {
+  font-size: 1.7em;
+}
+
+.additional-links {
+  font-size: 0.7em;
+}
+
+.assignments {
+  background: rgba( 255, 255, 255, 0.45 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.20 );
+  backdrop-filter: blur( 2.0px );
+  -webkit-backdrop-filter: blur( 2.0px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.assignment-details {
+  font-size: 0.7em;
+}
+
+.close-assignment {
+  float: right;
+  padding-right: 3px;
+}
