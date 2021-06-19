@@ -20,7 +20,7 @@ if (isset($_POST["username"]) && !empty($_POST["username"]) && isset($_POST["pas
         
         $_SESSION["username"]=$serialized_result["username"];
         $_SESSION["id"]=$serialized_result["id"];
-
+        $_SESSION["account-type"]=$serialized_result["usertype"];
         echo 'Login successful';
         header("Location: account.php");
     } else {

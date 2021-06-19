@@ -1,6 +1,6 @@
 <?php
 session_start();
-if (isset($_SESSION["username"]) && isset($_SESSION["id"])) {
+if (isset($_SESSION["username"]) && isset($_SESSION["id"]) && isset($_SESSION["account-type"])) {
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -12,7 +12,7 @@ if (isset($_SESSION["username"]) && isset($_SESSION["id"])) {
   </head>
   <body>
     <div class='container'><br/>
-      <span style='color: white'>Welcome, Guest</span>
+      <span style='color: white'>Welcome, <?php echo $_SESSION["username"]; ?> </span>
       <a href='logout.php'>
         <p class='button' style='float: right'>
           <span style='font-size: 1em' class='material-icons'>logout</span>&nbsp;Log Out
@@ -88,6 +88,11 @@ if (isset($_SESSION["username"]) && isset($_SESSION["id"])) {
           <form>
             <p>Class Code: <input class='button' type='text' name='course-code' id='course-code' /><input id='course-join' name='course-join' type='button' value='Join Course' class='button' /></p>
           </form>
+          <?php
+            if ($_SESSION["account-type"]==2) {
+                require "create_course.php";
+            }
+          ?>
       </div>
     </div>
   </body>
