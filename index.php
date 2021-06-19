@@ -1,3 +1,7 @@
+<?php
+session_start();
+if (isset($_SESSION["username"]) && isset($_SESSION["id"])) {
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -75,3 +79,8 @@
     </div>
   </body>
 </html>
+<?php
+} else {
+    header("Location: login.php");
+}
+?>
