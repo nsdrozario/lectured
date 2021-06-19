@@ -27,20 +27,16 @@
         <div class='col-md-3'>
           <p>To-Do</p><br/>
           <div class='assignments'>
-            <p class='close-assignment'>×</p><br/>
-            <div style='margin-top: 16px;'>
-              <p class='name-of-assignment'>007AB</p>
-              <p class='assignment-details'>AP Calculus AB</p>
-              <p class='assignment-details'>Due: March 14</p>
-            </div>
+            <span class='close-assignment'>×</span><br/>
+            <p class='name-of-assignment'>007AB</p>
+            <p class='assignment-details'>AP Calculus AB</p>
+            <p class='assignment-details'>Due: March 14</p>
           </div><br/>
           <div class='assignments'>
-            <p class='close-assignment'>×</p><br/>
-            <div style='margin-top: 16px;'>
-              <p class='name-of-assignment'>Banneker Essay</p>
-              <p class='assignment-details'>AP English Language and Composition</p>
-              <p class='assignment-details'>Due: June 9th</p>
-            </div>
+            <span class='close-assignment'>×</span><br/>
+            <p class='name-of-assignment'>Banneker Essay</p>
+            <p class='assignment-details'>AP English Language and Composition</p>
+            <p class='assignment-details'>Due: June 9th</p>
           </div><br/>
         </div>
       </div>

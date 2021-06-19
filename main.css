@@ -81,6 +81,8 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .close-assignment {
+  display: block;
   float: right;
   padding-right: 3px;
+  margin: none;
 }
