@@ -14,6 +14,22 @@
         <p>Password: <input name='password' type='password' id='password' /></p><br/><br/>
         <input type='submit' value='Submit' id='submit' />
       </form>
+      <br/>
+      <span style="color: red;" id="err-msg"></span>
+      <script>
+
+        let p = new URLSearchParams(window.location.search);
+        if (p.has('err')) {
+            switch(p.get("err")) {
+                case "wrongcredentials":
+                    document.querySelector("#err-msg").innerHTML = "Incorrect username or password, please try again.";
+                break;
+                case "nocredentials":
+                    document.querySelector("#err-msg").innerHTML = "Please enter both a username and password.";
+                break;
+            }
+        }   
+      </script>
     </div>
   </body>
 </html>
