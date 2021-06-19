@@ -87,7 +87,7 @@ if (isset($_SESSION["username"]) && isset($_SESSION["id"]) && isset($_SESSION["a
       <div class="col-md-12">
           <form>
             <p>Class Code: <input class='button' type='text' name='course-code' id='course-code' /><input id='course-join' name='course-join' type='button' value='Join Course' class='button' /></p>
-            <p><input class='button' type='button' name='createCourse' value='Create a Course' data-target='#createCourseModal' /></p>
+            <p><input class='button' type='button' name='createCourse' value='Create a Course' data-toggle='modal' data-target='#createCourseModal' /></p>
           </form>
           <?php
             if ($_SESSION["account-type"]==2) {
