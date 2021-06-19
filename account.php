@@ -1,8 +1,8 @@
 <?php
-/*session_start();
+session_start();
 if (isset($_SESSION["username"]) && isset($_SESSION["id"]) && isset($_SESSION["account-type"])) {
 
-require "include/account_data_setup.php";*/
+require "include/account_data_setup.php";
 
 ?>
 <!DOCTYPE html>
@@ -107,7 +107,7 @@ require "include/account_data_setup.php";*/
   </body>
 </html>
 <?php
-/*} else {
+} else {
     header("Location: login.php");
-}*/
+}
 ?>
