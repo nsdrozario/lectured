@@ -10,7 +10,7 @@
     <div class='container home center-page'>
       <div class='row'>
         <div class='col-md-9'>
-          <p>Classes</p><br/>
+          <p class='titular'>Classes</p><br/>
           <div class='classes'>
             <p class='name-of-class'>AP Physics 1</p>
             <p class='additional-links'>Assignments | Files</p>
@@ -25,7 +25,7 @@
           </div><br/>
         </div>
         <div class='col-md-3'>
-          <p>To-Do</p><br/>
+          <p class='titular'>To-Do</p><br/>
           <div class='assignments'>
             <span class='close-assignment'>×</span><br/>
             <p class='name-of-assignment'>007AB</p>
