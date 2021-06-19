@@ -9,6 +9,7 @@
   <body>
     <div class='center-page'>
       <p>Create an Account</p><br/><br/>
+      <p>Do not reuse passwords from other websites. Be sure to make your password between 8 to 40 characters long.</p>
       <form action='account_creation.php' method="post" onsubmit="validate()">
         <p><span>Username:</span> <input name='newUsername' type='text' id='newUsername' /></p><br/>
         <p><span>Password:</span> <input name='newPassword' type='password' id='newPassword' onchange="validate()" /></p><br/>
