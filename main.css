@@ -57,6 +57,17 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   -webkit-backdrop-filter: blur( 2.0px );
   border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
+  transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+}
+
+.classes:hover {
+  box-shadow: none;
+  transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  cursor: pointer;
 }
 
 .name-of-class {
@@ -75,6 +86,17 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   border: 1px solid rgba( 255, 255, 255, 0.18 );
   margin-right: 10px;
   margin-left: 10px;
+  transition: .2s;
+  -moz-transition: .2s;
+  -webkit-transition: .2s;
+}
+
+.assignments:hover {
+  background: rgba( 255, 255, 255, 0.7 );
+  transition: .2s;
+  -moz-transition: .2s;
+  -webkit-transition: .2s;
+  cursor: pointer;
 }
 
 .assignment-details {
