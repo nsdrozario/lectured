@@ -7,6 +7,12 @@
     <title>InspirEd - Login</title>
   </head>
   <body>
+    <?php
+    if(!(session_id() == '')) {
+      echo 'Login successful';
+      header("Location: account.php");
+    }
+     ?>
     <div class='center-page'>
       <p>Login</p><br/><br/>
       <form action='login_auth.php' method='post'>

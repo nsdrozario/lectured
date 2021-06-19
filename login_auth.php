@@ -6,11 +6,6 @@ get user post data here from login form to authenticate
 
 require "include/user.php";
 
-if(!(session_id() == '')) {
-  echo 'Login successful';
-  header("Location: account.php");
-}
-
 if (isset($_POST["username"]) && !empty($_POST["username"]) && isset($_POST["password"]) && !empty($_POST["password"])) {
     $connection = pg_connect(getenv("DATABASE_URL"));
     $username = $_POST["username"];
