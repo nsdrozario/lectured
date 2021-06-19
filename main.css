@@ -135,3 +135,15 @@ body {
   overflow-y: scroll;
   text-align: center;
 }
+
+#course-join {
+  background: rgba( 255, 255, 255, 0.7 );
+  backdrop-filter: blur( 2.0px );
+  -webkit-backdrop-filter: blur( 2.0px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  padding: 10px;
+  transition: .2s;
+  -moz-transition: .2s;
+  -webkit-transition: .2s;
+}
