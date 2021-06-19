@@ -11,7 +11,15 @@ if (isset($_SESSION["username"]) && isset($_SESSION["id"])) {
     <title>InspirEd - Home</title>
   </head>
   <body>
-    <div class='container home relative-top'>
+    <div class='container'><br/>
+      <span style='color: white'>Welcome, Guest</span>
+      <a href='logout.php'>
+        <p class='button' style='float: right'>
+          <span style='font-size: 1em' class='material-icons'>logout</span>&nbsp;Log Out
+        </p>
+      </a><br/>
+    </div>
+    <div style='margin-top: 10px;' class='container home relative-top'>
       <div class='row'>
         <div class='col-md-9'>
           <p class='titular'>Classes</p><br/>
@@ -78,7 +86,7 @@ if (isset($_SESSION["username"]) && isset($_SESSION["id"])) {
       </div><br/>
       <div class="col-md-12">
           <form>
-            <p>Class Code: <input type='text' name='course-code' id='course-code' /><input id='course-join' name='course-join' type='button' value='Join Course' /></p>
+            <p>Class Code: <input class='button' type='text' name='course-code' id='course-code' /><input id='course-join' name='course-join' type='button' value='Join Course' class='button' /></p>
           </form>
       </div>
     </div>
