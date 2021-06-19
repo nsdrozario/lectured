@@ -181,3 +181,7 @@ a:hover {
 .override-a-tag {
   text-decoration: underline;
 }
+
+.course-hover:hover {
+  text-decoration: none;
+}

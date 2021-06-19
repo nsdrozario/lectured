@@ -1,8 +1,8 @@
 <?php
-session_start();
+/*session_start();
 if (isset($_SESSION["username"]) && isset($_SESSION["id"]) && isset($_SESSION["account-type"])) {
 
-require "include/account_data_setup.php";
+require "include/account_data_setup.php";*/
 
 ?>
 <!DOCTYPE html>
@@ -26,18 +26,24 @@ require "include/account_data_setup.php";
       <div class='row'>
         <div class='col-md-9'>
           <p class='titular'>Classes</p><br/>
-          <div class='classes'>
-            <p class='name-of-class'>AP Physics 1</p>
-            <p class='additional-links'>Assignments | Files</p>
-          </div><br/>
-          <div class='classes'>
-            <p class='name-of-class'>AP English Language and Composition</p>
-            <p class='additional-links'>Assignments | Files</p>
-          </div><br/>
-          <div class='classes'>
-            <p class='name-of-class'>AP Calculus AB</p>
-            <p class='additional-links'>Assignments | Files</p>
-          </div><br/>
+          <a class='course-hover' href='course.php'>
+            <div class='classes'>
+              <p class='name-of-class'>AP Physics 1</p>
+              <p class='additional-links'>Assignments | Files</p>
+            </div>
+          </a><br/>
+          <a class='course-hover' href='course.php'>
+            <div class='classes'>
+              <p class='name-of-class'>AP English Language and Composition</p>
+              <p class='additional-links'>Assignments | Files</p>
+            </div>
+          </a><br/>
+          <a class='course-hover' href='course.php'>
+            <div class='classes'>
+              <p class='name-of-class'>AP Calculus AB</p>
+              <p class='additional-links'>Assignments | Files</p>
+            </div>
+          </a><br/>
         </div>
         <div class='col-md-3'>
           <p class='titular'>To-Do</p><br/>
@@ -101,7 +107,7 @@ require "include/account_data_setup.php";
   </body>
 </html>
 <?php
-} else {
+/*} else {
     header("Location: login.php");
-}
+}*/
 ?>
