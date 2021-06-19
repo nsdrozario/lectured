@@ -11,15 +11,15 @@ if (isset($_POST["username"]) && !empty($_POST["username"]) && isset($_POST["pas
     $username = $_POST["username"];
     $password = $_POST["password"];
 
-    $result = pg_query_params($connection, "select password from public.users where name=$1", array($username));
-    $id = pg_query_params($connection,"select id from public.users where name=$1", array($username));
-    if (password_verify($password, $result)) {
+    $result = pg_query_params($connection, "select * from public.users where username=$1", array($username));
+    $serialized_result = pg_fetch_assoc($result);
+    if (isset($serialized_result["password"]) && password_verify($password, $serialized_result["password"])) {
         // login successful
         
         session_start();
         
-        $_SESSION["username"]=$username;
-        $_SESSION["id"]=$id;
+        $_SESSION["username"]=$serialized_result["username"];
+        $_SESSION["id"]=$serialized_result["id"];
 
         echo 'Login successful';
         header("Location: landing.php");
