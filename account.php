@@ -1,8 +1,8 @@
 <?php
-session_start();
+/*session_start();
 if (isset($_SESSION["username"]) && isset($_SESSION["id"]) && isset($_SESSION["account-type"])) {
 
-require "include/account_data_setup.php";
+require "include/account_data_setup.php";*/
 
 ?>
 <!DOCTYPE html>
@@ -89,20 +89,19 @@ require "include/account_data_setup.php";
       </div><br/>
       <div class="col-md-12">
           <form>
-            <p>Class Code: <input class='button' type='text' name='course-code' id='course-code' /><input id='course-join' name='course-join' type='button' value='Join Course' class='button' /></p>
-            <p><input class='button' type='button' name='createCourse' value='Create a Course' data-toggle='modal' data-target='#createCourseModal' /></p>
+            <p id='join-class'>Class Code: <input class='button' type='text' name='course-code' id='course-code' /><input id='course-join' name='course-join' type='button' value='Join Course' class='button' /></p>
+            <?php
+              if ($_SESSION["account-type"]==2) {
+                  include "create_course.php";
+              }
+            ?>
           </form>
-          <?php
-            if ($_SESSION["account-type"]==2) {
-                require "create_course.php";
-            }
-          ?>
       </div>
     </div>
   </body>
 </html>
 <?php
-} else {
+/*} else {
     header("Location: login.php");
-}
+}*/
 ?>
