@@ -25,7 +25,7 @@
       </div><br/>
       <p class='heading-title'>So What are You Waiting For?</p><br/>
       <div class='container'>
-        <p class='description'><a id='getStarted' href='register.php'>Get Started</a> right away!</p>
+        <p class='description'><a class='override-a-tag' href='register.php'>Get Started</a> right away!</p>
       </div>
     </div>
   </body>
