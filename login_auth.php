@@ -8,7 +8,7 @@ require "include/user.php";
 
 if (isset($_POST["username"]) && isset($_POST["password"])) {
     $connection = pg_connect(getenv("DATABASE_URL"));
-    
+    echo $conn;
     $username = $_POST["username"];
     $password = $_POST["password"];
 
