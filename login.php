@@ -15,7 +15,7 @@
         <input type='submit' value='Submit' id='submit' />
       </form>
       <br/>
-      <span style="color: red;" id="err-msg"></span>
+      <span style="color: red;" id="err-msg">&#8204;</span>
       <script>
 
         let p = new URLSearchParams(window.location.search);
@@ -28,7 +28,7 @@
                     document.querySelector("#err-msg").innerHTML = "Please enter both a username and password.";
                 break;
             }
-        }   
+        }
       </script>
     </div>
   </body>
