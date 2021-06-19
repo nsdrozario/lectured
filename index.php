@@ -9,9 +9,11 @@
   <body>
     <div class='center-page'>
       <p>Login</p><br/><br/>
-      <p><label for='username'>Username:</label> <input name='username' type='text' id='username' /></p><br/>
-      <p><label for='password'>Password:</label> <input name='password' type='text' id='password' /></p><br/><br/>
-      <input type='submit' value='Submit' id='submit' />
+      <form action='login_auth.php'>
+        <p><label for='username'>Username:</label> <input name='username' type='text' id='username' /></p><br/>
+        <p><label for='password'>Password:</label> <input name='password' type='text' id='password' /></p><br/><br/>
+        <input type='submit' value='Submit' id='submit' />
+      </form>
     </div>
   </body>
 </html>
