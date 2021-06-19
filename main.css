@@ -69,11 +69,12 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 .assignments {
   background: rgba( 255, 255, 255, 0.45 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.20 );
   backdrop-filter: blur( 2.0px );
   -webkit-backdrop-filter: blur( 2.0px );
   border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .assignment-details {
@@ -89,4 +90,10 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 .titular {
   font-size: 1.5em;
+}
+
+.assignments-list {
+  height: 400px;
+  overflow-y: scroll;
+  text-align: center;
 }

@@ -26,18 +26,50 @@
         </div>
         <div class='col-md-3'>
           <p class='titular'>To-Do</p><br/>
-          <div class='assignments'>
-            <span class='close-assignment'>×</span><br/>
-            <p class='name-of-assignment'>007AB</p>
-            <p class='assignment-details'>AP Calculus AB</p>
-            <p class='assignment-details'>Due: March 14</p>
-          </div><br/>
-          <div class='assignments'>
-            <span class='close-assignment'>×</span><br/>
-            <p class='name-of-assignment'>Banneker Essay</p>
-            <p class='assignment-details'>AP English Language and Composition</p>
-            <p class='assignment-details'>Due: June 9th</p>
-          </div><br/>
+          <div class='assignments-list'>
+            <div class='assignments'>
+              <span class='close-assignment'>×</span><br/>
+              <p class='name-of-assignment'>007AB</p>
+              <p class='assignment-details'>AP Calculus AB</p>
+              <p class='assignment-details'>Due: March 14</p>
+            </div><br/>
+            <div class='assignments'>
+              <span class='close-assignment'>×</span><br/>
+              <p class='name-of-assignment'>Banneker Essay</p>
+              <p class='assignment-details'>AP English Language and Composition</p>
+              <p class='assignment-details'>Due: June 9th</p>
+            </div><br/>
+            <div class='assignments'>
+              <span class='close-assignment'>×</span><br/>
+              <p class='name-of-assignment'>Banneker Essay</p>
+              <p class='assignment-details'>AP English Language and Composition</p>
+              <p class='assignment-details'>Due: June 9th</p>
+            </div><br/>
+            <div class='assignments'>
+              <span class='close-assignment'>×</span><br/>
+              <p class='name-of-assignment'>Banneker Essay</p>
+              <p class='assignment-details'>AP English Language and Composition</p>
+              <p class='assignment-details'>Due: June 9th</p>
+            </div><br/>
+            <div class='assignments'>
+              <span class='close-assignment'>×</span><br/>
+              <p class='name-of-assignment'>Banneker Essay</p>
+              <p class='assignment-details'>AP English Language and Composition</p>
+              <p class='assignment-details'>Due: June 9th</p>
+            </div><br/>
+            <div class='assignments'>
+              <span class='close-assignment'>×</span><br/>
+              <p class='name-of-assignment'>Banneker Essay</p>
+              <p class='assignment-details'>AP English Language and Composition</p>
+              <p class='assignment-details'>Due: June 9th</p>
+            </div><br/>
+            <div class='assignments'>
+              <span class='close-assignment'>×</span><br/>
+              <p class='name-of-assignment'>Banneker Essay</p>
+              <p class='assignment-details'>AP English Language and Composition</p>
+              <p class='assignment-details'>Due: June 9th</p>
+            </div><br/>
+          </div>
         </div>
       </div>
     </div>
