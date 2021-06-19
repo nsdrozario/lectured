@@ -75,11 +75,11 @@ if (isset($_SESSION["username"]) && isset($_SESSION["id"])) {
             </div><br/>
           </div>
         </div>
-        <div class="col-md-12">
-            <form>
-              <input id='course-join' name='course-join' type='button' value='Join Course' />
-            </form>
-        </div>
+      </div><br/>
+      <div class="col-md-12">
+          <form>
+            <p>Class Code: <input type='text' name='course-code' id='course-code' /><input id='course-join' name='course-join' type='button' value='Join Course' /></p>
+          </form>
       </div>
     </div>
   </body>
