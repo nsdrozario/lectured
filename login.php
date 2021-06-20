@@ -18,7 +18,7 @@
       <form action='login_auth.php' method='post'>
         <p>Username:&nbsp; <input name='username' type='text' id='username' /></p><br/>
         <p>Password: <input name='password' type='password' id='password' /></p><br/><br/>
-        <input type='submit' value='Submit' id='submit' />
+        <input type='submit' value='Log In' id='submit' />
       </form>
       <br/>
       <div>
