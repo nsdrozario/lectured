@@ -15,7 +15,7 @@ require "include/account_data_setup.php";
   </head>
   <body>
     <div class='container'><br/>
-      <span style='color: white'>Welcome, <?php echo $_SESSION["username"]; ?> </span>
+      <span style='color: white'>Welcome, <?php echo $_SESSION["username"]; ?>!</span>
       <a href='logout.php'>
         <p class='button' style='float: right'>
           <span style='font-size: 1em' class='material-icons'>logout</span>&nbsp;Log Out
