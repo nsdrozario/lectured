@@ -18,13 +18,13 @@ if (input_check($_POST["newUsername"]) && input_check($_POST["newPassword"]) && 
         pg_close($connection);
         exit();
     }
-    if(len($_POST["newPassword"]) < 8) {
+    if(strlen($_POST["newPassword"]) < 8) {
       echo "Password is too short.";
       header("Location: register.php?err=passtooshort");
       pg_close($connection);
       exit();
     }
-    if(len($_POST["newPassword"]) > 40) {
+    if(strlen($_POST["newPassword"]) > 40) {
       echo "Password is too long.";
       header("Location: register.php?err=passtoolong");
       pg_close($connection);
