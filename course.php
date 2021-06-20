@@ -4,7 +4,7 @@
     <?php
       include 'head.php';
      ?>
-    <title></title>
+    <title>Course - Lectured</title>
   </head>
   <body>
     <div class='container home relative-top'>

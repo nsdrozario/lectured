@@ -4,7 +4,7 @@
     <?php
       include 'head.php';
      ?>
-    <title>InspirEd - Create an Account</title>
+    <title>Register - Lectured</title>
   </head>
   <body>
     <div class='center-page'>
