@@ -4,7 +4,7 @@
     <?php
       include 'head.php';
      ?>
-    <title>Home - InspirEd</title>
+    <title>Home - Lectured</title>
   </head>
   <body>
     <div class='container'><br/>
@@ -17,7 +17,7 @@
     <div class='home relative-top container'>
       <p class='heading-title'>One Website for All Your Lecture Notes.</p><br/>
       <div class='container'>
-        <p class='description' style='text-align: left'>At its core, InspirEd believes in doing more while being less. By adopting a minimalist style and maximizing output rate, InspirEd makes it easier for students to achieve more and worry less.</p>
+        <p class='description' style='text-align: left'>At its core, Lectured believes in doing more while being less. By adopting a minimalist style and maximizing output rate, Lectured makes it easier for students to achieve more and worry less.</p>
       </div><br/>
       <p class='heading-title'>More convenient than ever.</p><br/>
       <div class='container'>
