@@ -2,7 +2,7 @@
 
 A modern lecture note sharing system.
 
-Visit us [here](https://inspired-lms.herokuapp.com/)!
+Visit us [here](http://lectured.herokuapp.com/)!
 
 ## Features
 
