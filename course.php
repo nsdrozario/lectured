@@ -6,7 +6,7 @@
     }
     if (!input_check($_GET["courseid"])) {
         header("Location: account.php");
-    } else { 
+    } else {
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -32,34 +32,15 @@
         ?>
       </h1>
       <div style='text-align: left'>
-        <p class='titular'>Quizzes</p>
-        <div class='assignments' style='text-align: center'>
-          <p class='name-of-class'>007AB</p>
-        </div><br/>
-        <div class='assignments' style='text-align: center'>
-          <p class='name-of-class'>007AB</p>
-        </div><br/>
-        <div class='assignments' style='text-align: center'>
-          <p class='name-of-class'>007AB</p>
-        </div><br/>
-        <div class='assignments' style='text-align: center'>
-          <p class='name-of-class'>007AB</p>
-        </div><br/>
-        <div class='assignments' style='text-align: center'>
-          <p class='name-of-class'>007AB</p>
-        </div><br/>
-        <div class='assignments' style='text-align: center'>
-          <p class='name-of-class'>007AB</p>
-        </div><br/>
-        <div class='assignments' style='text-align: center'>
-          <p class='name-of-class'>007AB</p>
-        </div><br/>
-        <div class='assignments' style='text-align: center'>
-          <p class='name-of-class'>007AB</p>
-        </div><br/>
-        <div class='assignments' style='text-align: center'>
-          <p class='name-of-class'>007AB</p>
-        </div><br/>
+        <p class='titular'>Class Notes</p><br/>
+        <p><b>Argument</b></p><br/>
+        <p>In politics today, it's come down to just "crazed rhetoric." Argument, in its most classical term, is carefully moving from the claim to the conclusion in a clear and coherent manner.</p><br/><br/>
+        <p><b>Claim of Value</b></p><br/>
+        <p>Argues between the binary. Is it good or bad? Right or wrong? Usually based on taste but also based on world views at times.</p><br/><br/>
+        <p><b>Counterargument Thesis</b></p><br/>
+        <p>The counterclaim comes first in the argument essay thesis in this version. It's advantageous if you immediately want to address the counterargument.</p><br/><br/>
+        <p><b>Deduction</b></p><br/>
+        <p>Goes from a universal truth and boils down to a specific argument. Induction is the opposite</p><br/><br/>
       </div>
     </div>
   </body>
