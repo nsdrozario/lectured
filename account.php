@@ -26,36 +26,57 @@ require "include/account_data_setup.php";
       <div class='row'>
         <div class='col-md-12'>
           <p class='titular'>Classes</p><br/>
-          
-            <?php
-
-                // generate course list
-
-            ?>
-
+          <a class='course-hover' href='course.php'>
+            <div class='classes'>
+              <p class='name-of-class'>AP Physics 1</p>
+              <p class='additional-links'>Quizzes</p>
+            </div>
+          </a><br/>
+          <a class='course-hover' href='course.php'>
+            <div class='classes'>
+              <p class='name-of-class'>AP English Language and Composition</p>
+              <p class='additional-links'>Quizzes</p>
+            </div>
+          </a><br/>
+          <a class='course-hover' href='course.php'>
+            <div class='classes'>
+              <p class='name-of-class'>AP Calculus AB</p>
+              <p class='additional-links'>Quizzes</p>
+            </div>
+          </a><br/>
         </div>
       </div><br/>
       <div class="col-md-12">
           <form>
-            <p id='join-class'>Class Code: <input class='button' type='text' name='course-code' id='course-code' /><input id='course-join' name='course-join' type='button' value='Join Course' class='button' /></p>
+            <p id='join-class'>Class Code: <input class='button' type='text' name='course-code' id='course-code' /><input id='course-join' name='course-join' type='button' value='Join Course' class='button' onclick="join()" /></p>
+            <div id="join-response"></div>
             <?php
               if ($_SESSION["account-type"]==2) {
                   include "create_course.php";
               }
             ?>
           </form>
+          <script>
+
+              function join() {
+                let code = document.querySelector("#course-code").value;
+                let xhr = new XMLHttpRequest();
+                let responseArea = document.querySelector("#join-response");
+                xhr.onreadystatechange=function() {
+                    if (xhr.readyState==4 && xhr.status == 200) {
+                        responseArea.innerHTML = xhr.responseText;
+                    }
+                }
+                if (courseName != "") {
+                    xhr.open("POST", "join_course.php", true);
+                    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+                    xhr.send("courseId="+code);
+                }
+              }
+
+          </script>
       </div>
     </div>
-    <script>
-    function course_listing(course_name,course_id) {
-        return `<a class='course-hover' href='course.php?id=${course_id}'>
-            <div class='classes'>
-              <p class='name-of-class'>${course_name}</p>
-              <p class='additional-links'>Assignments</p>
-            </div>
-          </a><br/>`
-    }
-    </script>
   </body>
 </html>
 <?php
