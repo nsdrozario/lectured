@@ -17,6 +17,7 @@ Have a teacher account create a course, and any student can join it with the cla
 ### Lecture Notes
 
 Teachers can share their lecture notes for all their students to see!*
+
 *currently incomplete
 
 ### How does it work?
