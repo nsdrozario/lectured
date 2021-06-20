@@ -15,13 +15,13 @@
       </a><br/>
     </div>
     <div class='home relative-top container'>
-      <p class='heading-title'>A Minimalist Learning Management System.</p><br/>
+      <p class='heading-title'>A Minimalist Quiz Delivery System.</p><br/>
       <div class='container'>
         <p class='description' style='text-align: left'>At its core, InspirEd believes in doing more while being less. By adopting a minimalist style and maximizing output rate, InspirEd makes it easier for students to achieve more and worry less.</p>
       </div><br/>
       <p class='heading-title'>More convenient than ever.</p><br/>
       <div class='container'>
-        <p class='description' style='text-align: left'>With our Discord bot integration, students can manage their assignments from even more convenient spaces.</p>
+        <p class='description' style='text-align: left'>With easy access to anonymous quizzes for both students and teachers, the convenience of this app could not be any higher.</p>
       </div><br/>
       <p class='heading-title'>So What are You Waiting For?</p><br/>
       <div class='container'>

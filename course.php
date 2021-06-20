@@ -10,7 +10,7 @@
     <div class='container home relative-top'>
       <h1>AP Calculus AB</h1>
       <div style='text-align: left'>
-        <p class='titular'>Assignments</p>
+        <p class='titular'>Quizzes</p>
         <div class='assignments' style='text-align: center'>
           <p class='name-of-class'>007AB</p>
         </div><br/>
