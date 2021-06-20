@@ -67,7 +67,7 @@ require "include/account_data_setup.php";
                         responseArea.innerHTML = xhr.responseText;
                     }
                 }
-                if (courseName != "") {
+                if (code != "") {
                     xhr.open("POST", "join_course.php", true);
                     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
                     xhr.send("courseId="+code);
