@@ -21,7 +21,7 @@
       <h1>
         <?php
             $c = pg_connect(getenv("DATABASE_URL"));
-            $name = pg_query_params($c, "select course_title from public.courses where id=$1", array($_POST["courseid"]));
+            $name = pg_query_params($c, "select course_title from public.courses where id=$1", array($_GET["courseid"]));
             if (pg_num_rows($name) > 0) {
                 $name_arr = pg_fetch_assoc($name);
                 $real_name = $name_arr["course_title"];

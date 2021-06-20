@@ -40,7 +40,7 @@ require "include/util.php";
                 if ($course_name) {
                     $course_name_array = pg_fetch_assoc($course_name);
                     if (input_check($course_name_array["course_title"])) {
-                        echo "<a class='course-hover' href='course.php'><div class='classes'><p class='name-of-class'>" . $course_name_array["course_title"] .  "</p><p class='additional-links'>Lecture Notes</p></div></a><br/>";
+                        echo "<a class='course-hover' href='course.php?courseid=". $course .  "'><div class='classes'><p class='name-of-class'>" . $course_name_array["course_title"] .  "</p><p class='additional-links'>Lecture Notes</p></div></a><br/>";
                     }
                 }
             }
