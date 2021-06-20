@@ -27,7 +27,7 @@
       <div class='container'>
         <p class='description'><a class='override-a-tag' href='register.php'>Get Started</a> right away!</p>
       </div>
-        <p>This project was created for High Tech Hacks 2021 by Team Hackathoff</p>
+        <p>This project was created for High Tech Hacks 2021 by Team Hackathoff.</p>
     </div>
   </body>
 </html>

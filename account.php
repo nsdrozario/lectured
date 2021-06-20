@@ -76,6 +76,7 @@ require "include/util.php";
                 }
           </script>
       </div>
+      <p>This project was created for High Tech Hacks 2021 by Team Hackathoff.</p>
     </div>
   </body>
 </html>
