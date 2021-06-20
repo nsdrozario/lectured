@@ -37,11 +37,11 @@ Password: teacher2
 
 Teacher accounts can **create a course** as shown here:
 
-[Course Creation](images/course-creation.gif)
+![Course Creation](images/course-creation.gif)
 
 In turn, students may join the courses using the same course codes (the refreshing of the page in this GIF is done off the recording window):
 
-[Course Join](image/course-join.gif)
+![Course Join](images/course-join.gif)
 
 ### Technologies used
 
