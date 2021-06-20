@@ -49,7 +49,12 @@ In turn, students may join the courses using the same course codes (the refreshi
 - Bootstrap (+ jQuery)
 - JavaScript/HTML/CSS
 
+
 Made for HighTechHacks 2021
+
 Team Hackathoff
+
 Nathaniel D'Rozario
+
 Nishchal Shukla
+
