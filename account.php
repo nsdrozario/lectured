@@ -29,19 +29,19 @@ require "include/account_data_setup.php";
           <a class='course-hover' href='course.php'>
             <div class='classes'>
               <p class='name-of-class'>AP Physics 1</p>
-              <p class='additional-links'>Assignments | Files</p>
+              <p class='additional-links'>Quizzes</p>
             </div>
           </a><br/>
           <a class='course-hover' href='course.php'>
             <div class='classes'>
               <p class='name-of-class'>AP English Language and Composition</p>
-              <p class='additional-links'>Assignments | Files</p>
+              <p class='additional-links'>Quizzes</p>
             </div>
           </a><br/>
           <a class='course-hover' href='course.php'>
             <div class='classes'>
               <p class='name-of-class'>AP Calculus AB</p>
-              <p class='additional-links'>Assignments | Files</p>
+              <p class='additional-links'>Quizzes</p>
             </div>
           </a><br/>
         </div>
