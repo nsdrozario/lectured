@@ -2,11 +2,13 @@
 
 A modern lecture note sharing system.
 
+Visit us [here](https://inspired-lms.herokuapp.com/)!
+
 ## Features
 
 ### Full-fledged login system
 
-We at Team Hackathoff spent quite a bit of time making our login system fully secure and functional for everyone to use!
+Create real logins that are stored in a secure database powered by PostGreSQL!
 
 ### Course Joining
 
