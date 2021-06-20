@@ -21,9 +21,27 @@ Teachers can share their lecture notes for all their students to see!*
 
 ### How does it work?
 
+Students and teachers may individually create accounts. **There is no method to recover lost passwords.** Additionally, do NOT reuse passwords on this website. While this website does practice some basic security standards, it is not enough to risk your data over. Here are the credentials of some premade accounts:
+
+**Student account**
+Username: guest
+
+Password: guest
+
+
+**Teacher account**
+Username: teacher2
+
+Password: teacher2
+
+
 Teacher accounts can **create a course** as shown here:
 
-[Course Creation](images/course-creation.png)
+![Course Creation](images/course-creation.gif)
+
+In turn, students may join the courses using the same course codes (the refreshing of the page in this GIF is done off the recording window):
+
+![Course Join](images/course-join.gif)
 
 ### Technologies used
 
@@ -31,5 +49,7 @@ Teacher accounts can **create a course** as shown here:
 - PostgreSQL
 - JavaScript/HTML/CSS
 
-HighTechHacks 2021
+Made for HighTechHacks 2021
 Team Hackathoff
+Nathaniel D'Rozario
+Nishchal Shukla
