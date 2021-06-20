@@ -45,7 +45,7 @@ In turn, students may join the courses using the same course codes (the refreshi
 
 - PHP
 - PostgreSQL
-- Bootstrap
+- Bootstrap (+ jQuery)
 - JavaScript/HTML/CSS
 
 Made for HighTechHacks 2021
