@@ -4,6 +4,8 @@ A modern lecture note sharing system.
 
 Visit us [here](https://lectured.herokuapp.com/)!
 
+This project was created for for High Tech Hacks 2021 by Team Hackathoff (Nathaniel D'Rozario, Nishchal Shukla)
+
 ## Features
 
 ### Full-fledged login system
@@ -48,13 +50,3 @@ In turn, students may join the courses using the same course codes (the refreshi
 - PostgreSQL
 - Bootstrap (+ jQuery)
 - JavaScript/HTML/CSS
-
-
-Made for HighTechHacks 2021
-
-Team Hackathoff
-
-Nathaniel D'Rozario
-
-Nishchal Shukla
-
