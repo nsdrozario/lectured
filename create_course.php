@@ -1,7 +1,7 @@
 <p><input id='course-button' class='button' type='button' name='createCourse' value='Create a Course' onclick='courseCreator()' /></p>
 <div id='creator' style='display: none'>
 <p>Course Name: <input style='margin-left: 20px;' type='text' class='button' name='newCourseName' id='newCourseName' /></p>
-<div id="feedback"></div>
+<div id="response-area"></div>
 <input type='button' value='Create This Course' class='button' name='createCourse' onclick='request_course_creation()' />
 </div>
 <style>
@@ -17,16 +17,18 @@ function courseCreator() {
 }
 
 function request_course_creation() {
-
-    let xhr = new XMLHTTPRequest();
-    xhr.onreadystatechange = function () {
-        if (this.readyState == 4 && this.status == 200) {
-            document.querySelector("#feedback").innerHTML = xhr.responseText;
+    let xhr = new XMLHttpRequest();
+    let responseArea = document.querySelector("#response-area");
+    let courseName = document.querySelector("#newCourseName").value;
+    xhr.onreadystatechange=function() {
+        if (xhr.readyState==4 && xhr.status == 200) {
+            responseArea.innerHTML = xhr.responseText;
         }
     }
-    xhr.open("POST", "course_creation.php", true);
-    xhr.send("courseName="+document.querySelector("#newCourseName").value);
-
+    if (courseName != "") {
+        xhr.open("POST", "course_creation.php", true);
+        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+        xhr.send("courseName="+courseName);
+    }
 }
-
 </script>
