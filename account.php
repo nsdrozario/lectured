@@ -26,7 +26,6 @@ require "include/account_data_setup.php";
       <div class='row'>
         <div class='col-md-12'>
           <p class='titular'>Classes</p><br/>
-<<<<<<< HEAD
           
             <?php
 
@@ -34,26 +33,6 @@ require "include/account_data_setup.php";
 
             ?>
 
-=======
-          <a class='course-hover' href='course.php'>
-            <div class='classes'>
-              <p class='name-of-class'>AP Physics 1</p>
-              <p class='additional-links'>Quizzes</p>
-            </div>
-          </a><br/>
-          <a class='course-hover' href='course.php'>
-            <div class='classes'>
-              <p class='name-of-class'>AP English Language and Composition</p>
-              <p class='additional-links'>Quizzes</p>
-            </div>
-          </a><br/>
-          <a class='course-hover' href='course.php'>
-            <div class='classes'>
-              <p class='name-of-class'>AP Calculus AB</p>
-              <p class='additional-links'>Quizzes</p>
-            </div>
-          </a><br/>
->>>>>>> b043bb28f28aaa0de25d0359c407b232412c5050
         </div>
       </div><br/>
       <div class="col-md-12">
