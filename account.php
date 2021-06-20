@@ -26,24 +26,13 @@ require "include/account_data_setup.php";
       <div class='row'>
         <div class='col-md-12'>
           <p class='titular'>Classes</p><br/>
-          <a class='course-hover' href='course.php'>
-            <div class='classes'>
-              <p class='name-of-class'>AP Physics 1</p>
-              <p class='additional-links'>Quizzes</p>
-            </div>
-          </a><br/>
-          <a class='course-hover' href='course.php'>
-            <div class='classes'>
-              <p class='name-of-class'>AP English Language and Composition</p>
-              <p class='additional-links'>Quizzes</p>
-            </div>
-          </a><br/>
-          <a class='course-hover' href='course.php'>
-            <div class='classes'>
-              <p class='name-of-class'>AP Calculus AB</p>
-              <p class='additional-links'>Quizzes</p>
-            </div>
-          </a><br/>
+          
+            <?php
+
+                // generate course list
+
+            ?>
+
         </div>
       </div><br/>
       <div class="col-md-12">
@@ -57,6 +46,16 @@ require "include/account_data_setup.php";
           </form>
       </div>
     </div>
+    <script>
+    function course_listing(course_name,course_id) {
+        return `<a class='course-hover' href='course.php?id=${course_id}'>
+            <div class='classes'>
+              <p class='name-of-class'>${course_name}</p>
+              <p class='additional-links'>Assignments</p>
+            </div>
+          </a><br/>`
+    }
+    </script>
   </body>
 </html>
 <?php
