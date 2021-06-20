@@ -2,7 +2,7 @@
 
 A modern lecture note sharing system.
 
-Visit us [here](http://lectured.herokuapp.com/)!
+Visit us [here](https://lectured.herokuapp.com/)!
 
 ## Features
 
