@@ -11,7 +11,7 @@ require "include/account_data_setup.php";
     <?php
       include 'head.php';
      ?>
-    <title>Courses - InspirEd</title>
+    <title>Courses - Lectured</title>
   </head>
   <body>
     <div class='container'><br/>
