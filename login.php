@@ -4,7 +4,7 @@
     <?php
       include 'head.php';
      ?>
-    <title>InspirEd - Login</title>
+    <title>Login - Lectured</title>
   </head>
   <body>
     <?php
