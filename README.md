@@ -19,6 +19,12 @@ Have a teacher account create a course, and any student can join it with the cla
 Teachers can share their lecture notes for all their students to see!*
 *currently incomplete
 
+### How does it work?
+
+Teacher accounts can **create a course** as shown here:
+
+[Course Creation](images/course-creation.png)
+
 ### Technologies used
 
 - PHP

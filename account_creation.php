@@ -6,7 +6,6 @@
     about if anything goes wrong.
 */
 
-require "include/user.php";
 require "include/util.php";
 
 if (input_check($_POST["newUsername"]) && input_check($_POST["newPassword"]) && input_check($_POST["newPassword-confirm"]) && input_check($_POST["account-type"])) {
