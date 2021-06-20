@@ -30,7 +30,7 @@
                 }
             }
         ?>
-      </h1>
+      </h1><br/><br/>
       <div style='text-align: left'>
         <p class='titular'>Class Notes</p><br/>
         <p><b>Argument</b></p><br/>

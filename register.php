@@ -23,7 +23,7 @@
               </select>
           </span></p>
           <br/><br/>
-          <input type='submit' value='Submit' id='submit' />
+          <input type='submit' value='Register' id='submit' />
         </form>
       </div>
       <div>

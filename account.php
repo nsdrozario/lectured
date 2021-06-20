@@ -25,7 +25,7 @@ require "include/util.php";
     <div class='container home relative-top'>
       <div class='row'>
         <div class='col-md-12'>
-          <p class='titular'>Classes</p><br/>
+          <p class='titular'>Courses</p><br/>
           <div id="class-list">
           <?php
             $connection2 = pg_connect(getenv("DATABASE_URL"));
